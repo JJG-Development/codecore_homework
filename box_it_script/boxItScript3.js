@@ -56,8 +56,11 @@ arr.forEach(function (element) {
 //drawBarsAround(element)+`\n`+drawMiddleBorder(longest.length)+`\n` for full array except the last element
 //drawBottomBorder(longest.length);
 
+
+//THIS IS IT THIS IS ITTHIS IS IT THIS IS ITTHIS IS IT THIS IS ITTHIS IS IT THIS IS ITTHIS IS IT THIS IS IT
 console.log(drawTopBorder(longest.length))// + `\n`)
 for (let i = 0; i < arr.length - 1; i++) {
     console.log(drawBarsAround(arr[i]) + `\n` + drawMiddleBorder(longest.length)) //+ `\n`)
 }
 console.log(drawBarsAround(arr[arr.length - 1]) + `\n` + drawBottomBorder(longest.length));
+//The above is the code that wraps each array element in the appropriate characters. Thanks!
