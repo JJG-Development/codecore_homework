@@ -64,4 +64,8 @@ for (let i = 0; i < arr.length - 1; i++) {
 }
 console.log(drawBarsAround(arr[arr.length - 1]) + `\n` + drawBottomBorder(longest.length));
 //The above is the code that wraps each array element in the appropriate characters. Thanks!
-//
+
+
+//I tried running this through a if/else statement - if (Array.isArray(arr) === true) { DO STUFF} else { topLeftBorder + topRightBorder + `\n` + botLeftCorner + botRightCorner }
+//but I would run an error due to things in DO STUFF being undefined. I'm confused becuase shouldn't the block just not run?
+//It's 750, I concede. GG
