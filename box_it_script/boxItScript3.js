@@ -1,3 +1,4 @@
+
 let arr = process.argv.slice(2);
 
 //variables to draw box with
@@ -10,8 +11,11 @@ var midLineR = "┫"
 var line = "━"
 var leftLine = "┃"
 var rightLine = "┃"
-//Above are the variables that will be called by functions to create the box.
+//should be const never gonna change
+//defeine with ALLCAPS name
+//wrap in object called lines (object.lefcorner) example
 
+//Above are the variables that will be called by functions to create the box.
 
 
 //Function for a horizontal line 
